@@ -1,0 +1,40 @@
+* {
+    transition: all 0s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e4e4f4;
+}
+
+td {
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+.controls {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    background: rgba(245, 155, 184, 0.7);
+    display: inline block;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
